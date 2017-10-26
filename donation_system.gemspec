@@ -28,6 +28,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'stripe', '~> 3.8', '>= 3.8.0'
 
   spec.add_development_dependency 'coveralls', '~> 0.8', '>= 0.8.21'
+  spec.add_development_dependency 'dotenv', '~> 2.2', '>= 2.2.1'
   spec.add_development_dependency 'pry', '~> 0.10', '>= 0.10.4'
   spec.add_development_dependency 'rake', '~> 12.0', '>= 12.0.0'
   spec.add_development_dependency 'rspec', '~> 3.6', '>= 3.6.0'
