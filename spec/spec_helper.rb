@@ -1,5 +1,9 @@
 # frozen_string_literal: true
 
+require 'dotenv'
+# Dotenv.load('credentials/.env_test')
+Dotenv.load(File.expand_path('../../credentials/.env_test', __FILE__))
+
 require 'coveralls'
 Coveralls.wear!
 
